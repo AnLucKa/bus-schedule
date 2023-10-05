@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bus-schedule"
+version = "0.1.0"
+description = ""
+authors = ["AnLucKa <loalppts@mail.ru>"]
+readme = "README.md"
+packages = [{include = "bus_schedule"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+requests = "^2.31.0"
+lxml = "^4.9.3"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
